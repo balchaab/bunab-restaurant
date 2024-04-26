@@ -2,10 +2,11 @@ import 'package:stackfood_multivendor_restaurant/features/language/domain/models
 import 'package:stackfood_multivendor_restaurant/util/images.dart';
 
 class AppConstants {
-  static const String appName = 'StackFood Restaurant';
+  static const String appName = 'BUNAB Delivery Restaurant';
   static const double appVersion = 7.3;
 
   static const String baseUrl = 'https://delivery.bunab7374.com';
+  //static const String baseUrl =  "https://stackfood-admin.6amtech.com";
   static const String configUri = '/api/v1/config';
   static const String loginUri = '/api/v1/auth/vendor/login';
   static const String forgetPasswordUri = '/api/v1/auth/vendor/forgot-password';
@@ -122,8 +123,7 @@ class AppConstants {
 
   static List<LanguageModel> languages = [
     LanguageModel(imageUrl: Images.english, languageName: 'English', countryCode: 'US', languageCode: 'en'),
-    LanguageModel(imageUrl: Images.arabic, languageName: 'Arabic', countryCode: 'SA', languageCode: 'ar'),
-    LanguageModel(imageUrl: Images.spanish, languageName: 'Spanish', countryCode: 'ES', languageCode: 'es'),
-    LanguageModel(imageUrl: Images.bengali, languageName: 'Bengali', countryCode: 'BN', languageCode: 'bn'),
+    LanguageModel(imageUrl: Images.arabic, languageName: 'አማርኛ', countryCode: 'Amh', languageCode: 'ar'),
+    LanguageModel(imageUrl: Images.spanish, languageName: 'Oromiffa', countryCode: 'Om', languageCode: 'es'),
   ];
 }
